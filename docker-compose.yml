@@ -1,0 +1,11 @@
+services:
+
+  # Roda a suíte de testes completa (4 cenários do TCC)
+  test:
+    build: .
+    command: ["test"]
+
+  # Executa o script de demonstração da defesa
+  demo:
+    build: .
+    command: ["run", "scripts/demo-defesa.js"]

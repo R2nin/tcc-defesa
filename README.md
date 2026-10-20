@@ -87,15 +87,21 @@ npm run demo:full
 ```
 tcc-defesa/
 ├── contracts/
-│   └── TCCDelivery.sol       # Smart contract principal (ERC-721 + Ownable)
+│   └── TCCDelivery.sol           # Smart contract principal (ERC-721 + Ownable)
+├── docs/
+│   ├── tese/
+│   │   └── B2311600029 (1).pdf   # Monografia completa (PDF)
+│   └── apresentacao/
+│       ├── Defesa_TCCv3.pptx     # Apresentação da defesa (versão 3)
+│       └── Defesa_TCCv4.pptx     # Apresentação da defesa (versão 4)
 ├── scripts/
-│   ├── deploy.js             # Script de deploy em rede local
-│   └── demo-defesa.js        # Demonstração completa com métricas de gas
+│   ├── deploy.js                 # Script de deploy em rede local
+│   └── demo-defesa.js            # Demonstração completa com métricas de gas
 ├── test/
-│   └── TCCDelivery.test.js   # Suíte de testes (4 cenários)
-├── Dockerfile                # Imagem Docker com Node 20 + Hardhat
-├── docker-compose.yml        # Serviços: test e demo
-└── hardhat.config.js         # Configuração do Hardhat (EVM Cancun)
+│   └── TCCDelivery.test.js       # Suíte de testes (4 cenários)
+├── Dockerfile                    # Imagem Docker com Node 20 + Hardhat
+├── docker-compose.yml            # Serviços: test e demo
+└── hardhat.config.js             # Configuração do Hardhat (EVM Cancun)
 ```
 
 ---
